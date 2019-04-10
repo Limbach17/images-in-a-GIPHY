@@ -1,0 +1,34 @@
+@charset "UTF-8";
+
+.gif-large{
+    display: none;
+    position: absolute;
+}
+
+.gif-small {
+    display: block;
+}
+
+#display{
+    padding-top: 20 px;
+}
+
+#header {
+    width: 100%;
+}
+
+#search-form {
+    display:block;
+}
+
+@media screen and (min-width: 960px){
+
+    .gif-large{
+        display: block;
+        position: absolute;
+    }
+    
+    .gif-small {
+        display: none;
+    }
+}

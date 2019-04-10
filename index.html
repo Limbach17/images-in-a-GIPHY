@@ -9,19 +9,50 @@
          crossorigin="anonymous"></script>
     </head>
     <body>
-        <div id="buttons-display"></div>
+        <div class="card" id="header">
+            <div class="card-header" id="buttons-display"></div>
 
-        <div id="search">
-            <form id="search-form">
-                <label for="movie-input">Hum ha! Show me another legend n'at!</label>
-                <input type="text" id="icon-input"><br>
-          
+            <div class="card-body">
+                <h3 class="card-title">Pittsburgh Sports Legends</h3>
+                <p class="card-text">Click on a legend to display relevant gifs. Click on the image to animate!</p>
+                <br>
                 
-                <input id="add-icon" type="submit" value="Search">
-              </form>
+                <div id="search">
+                        <form id="search-form">
+                            <input id="add-icon" type="submit" value="Search" class="btn btn-warning">
+                            <input type="text" id="icon-input"><br>
+                      
+                            <label for="movie-input">Hum ha! Show me another legend n'at!</label>
+                            
+                          </form>
+                    </div>
+            </div>
         </div>
 
-        <div id="display"></div>
+        <div class="container-fluid">
+            <div class="row">
+                <div class="col-xl-12, col-lg-12" id="display">
+
+                </div>
+            </div>
+        </div>
+
+
+        <audio id="cabana">
+                <source src="assets/sound/copes_cabana_theme.wav" type="audio/mpeg">
+        </audio>
+
+        <audio id="cranium">
+            <source src="assets/sound/cranium.wav" type="audio/mpeg">
+        </audio>
+
+        <audio id="yoi-club">
+                <source src="assets/sound/yoiclub.wav" type="audio/mpeg">
+        </audio>
+
+        <audio id="double-yoi">
+                <source src="assets/sound/double_yoi.wav" type="audio/mpeg">
+        </audio>
 
         <script type="text/javascript" src="assets/javascript/app.js"></script>
 
