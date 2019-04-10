@@ -46,6 +46,8 @@ $(document).ready(function (){
 
     $(document).on("click", ".icon", function gifInfo () {
 
+        $("audio#yoi-club")[0].play();
+
         $("#display").empty();
 
         var search = $(this).attr("data-name");
@@ -105,7 +107,7 @@ $(document).ready(function (){
     $(document).on("click", ".gif", function(){
 
         $("audio#double-yoi")[0].play();
-        
+
         var state = $(this).attr("data-state");
 
             if (state === "still") {

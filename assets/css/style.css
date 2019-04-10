@@ -3,10 +3,14 @@
 .gif-large{
     display: none;
     position: absolute;
+    margin: 0 auto;
+    padding: 0 auto;
 }
 
 .gif-small {
     display: block;
+    margin: 0 auto;
+    padding: 0 auto;
 }
 
 #display{
